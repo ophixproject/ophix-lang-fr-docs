@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ophix-lang-fr-docs"
+version = "2026.04.25.01"
+description = "French translation pack for ophix-docs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ophix Project" }
+]
+dependencies = [
+    "ophix-docs",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ophix_lang_fr_docs = [
+    "locale/**/*",
+    "docs/**/*",
+]
+
+[project.entry-points."ophix.plugins"]
+ophix_lang_fr_docs = "ophix_lang_fr_docs"
