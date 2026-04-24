@@ -1,10 +1,12 @@
 # ophix-lang-fr-docs
 
+> Pack de traduction française pour ophix-docs.
+
 French translation pack for [ophix-docs](https://ophix.io).
 
 ## Install
 
-```
+```bash
 pip install ophix-lang-fr-docs
 ```
 
