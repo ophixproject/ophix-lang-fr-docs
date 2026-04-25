@@ -16,3 +16,7 @@ Then set `LANGUAGE_CODE = "fr"` (or `"fr-fr"`) in your server `.env`.
 
 - Admin UI strings: app label, model field labels and help text
 - Documentation page: ophix-docs system guide
+
+## Documentation
+
+- [Système de documentation](src/ophix_lang_fr_docs/docs/ophix_docs.md)
