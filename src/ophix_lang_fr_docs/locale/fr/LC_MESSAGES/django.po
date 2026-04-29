@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ophix-docs 2026.04.25.01\n"
+"Project-Id-Version: ophix-docs 2026.04.29.02\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 00:00+0000\n"
-"PO-Revision-Date: 2026-04-25 00:00+0000\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"PO-Revision-Date: 2026-04-29 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -15,17 +15,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/ophix_docs/apps.py
+#: src/ophix_docs/admin.py src/ophix_docs/apps.py
 msgid "Documentation"
 msgstr "Documentation"
+
+#: src/ophix_docs/models.py
+msgid "name"
+msgstr "nom"
+
+#: src/ophix_docs/models.py
+msgid "language"
+msgstr "langue"
+
+#: src/ophix_docs/models.py
+msgid "order"
+msgstr "ordre"
+
+#: src/ophix_docs/models.py
+msgid "collapsed"
+msgstr "replié"
+
+#: src/ophix_docs/models.py
+msgid "updated at"
+msgstr "mis à jour le"
+
+#: src/ophix_docs/models.py
+msgid "Section"
+msgstr "Section"
+
+#: src/ophix_docs/models.py
+msgid "Sections"
+msgstr "Sections"
+
+#: src/ophix_docs/models.py
+msgid "slug"
+msgstr "identifiant"
 
 #: src/ophix_docs/models.py
 msgid "Language code of the document (e.g., 'ru'). Empty = default"
 msgstr "Code de langue du document (ex. : « ru »). Vide = langue par défaut"
 
 #: src/ophix_docs/models.py
+msgid "title"
+msgstr "titre"
+
+#: src/ophix_docs/models.py
+msgid "content"
+msgstr "contenu"
+
+#: src/ophix_docs/models.py
+msgid "section"
+msgstr "section"
+
+#: src/ophix_docs/models.py
 msgid "Section name to display for this page (in same language as document)"
 msgstr "Nom de section à afficher pour cette page (dans la même langue que le document)"
+
+#: src/ophix_docs/models.py
+msgid "source path"
+msgstr "chemin source"
 
 #: src/ophix_docs/models.py
 msgid "Absolute path to the source markdown file. Set by ophix_docs_update; blank for admin-created pages."
