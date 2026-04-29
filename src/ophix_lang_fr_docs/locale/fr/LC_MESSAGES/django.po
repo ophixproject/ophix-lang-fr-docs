@@ -86,3 +86,15 @@ msgstr "Page"
 #: src/ophix_docs/models.py
 msgid "Pages"
 msgstr "Pages"
+
+#: src/ophix_docs/templates/admin/ophix_docs/docpage/change_form.html
+msgid "Back to Index"
+msgstr "Retour à l'index"
+
+#: src/ophix_docs/templates/admin/ophix_docs/docpage/change_form.html
+msgid "Copy"
+msgstr "Copier"
+
+#: src/ophix_docs/templates/admin/ophix_docs/docpage/change_form.html
+msgid "Copied!"
+msgstr "Copié !"
